@@ -1,12 +1,12 @@
-import React from 'react';
-import TodoList from './Components/TodoList';
+import './App.css'
+import FeedbackForm from './Components/FeedbackForm'
 
 function App() {
   return (
    <>
-   <TodoList/>
+ <FeedbackForm/>
    </>
-  );
+  )
 }
 
-export default App;
+export default App
